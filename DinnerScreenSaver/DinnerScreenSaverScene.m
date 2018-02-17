@@ -52,7 +52,8 @@
 - (void)updateTimer {
     if (_seconds)
         _seconds--;
-    [_timerLabel setText:[NSString stringWithFormat:@"%ld:%ld", (_seconds / 60), (_seconds  % 60)]];
+    
+    [_timerLabel setText:[NSString stringWithFormat:@"%02ld:%02ld", (_seconds / 60), (_seconds  % 60)]];
 }
 
 @end
