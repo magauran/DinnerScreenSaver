@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A646096206046430075146C /* ConfigureSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A646094206046430075146C /* ConfigureSheet.h */; };
+		8A646097206046430075146C /* ConfigureSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A646095206046430075146C /* ConfigureSheet.m */; };
+		8A64610D206166860075146C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A646103206166860075146C /* MainMenu.xib */; };
+		8A646112206166860075146C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A64610A206166860075146C /* main.m */; };
+		8A646114206166860075146C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A64610B206166860075146C /* AppDelegate.m */; };
+		8A646119206170D80075146C /* NSColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A646117206170D80075146C /* NSColor+Hex.h */; };
+		8A64611A206170D80075146C /* NSColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A646118206170D80075146C /* NSColor+Hex.m */; };
+		8A762CCA205AFDF600A4C384 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A762CC9205AFDF600A4C384 /* ConfigureSheet.xib */; };
 		8AFA89D12038201F006E68A0 /* DinnerScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AFA89D02038201F006E68A0 /* DinnerScreenSaverView.h */; };
 		8AFA89D32038201F006E68A0 /* DinnerScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA89D22038201F006E68A0 /* DinnerScreenSaverView.m */; };
 		8AFA89E0203822F1006E68A0 /* DinnerScreenSaverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA89DE203822F1006E68A0 /* DinnerScreenSaverScene.m */; };
 		8AFA89E1203822F1006E68A0 /* DinnerScreenSaverScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AFA89DF203822F1006E68A0 /* DinnerScreenSaverScene.h */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8A64611520616F690075146C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AFA89C42038201F006E68A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AFA89CC2038201F006E68A0;
+			remoteInfo = DinnerScreenSaver;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		8A646094206046430075146C /* ConfigureSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigureSheet.h; sourceTree = "<group>"; };
+		8A646095206046430075146C /* ConfigureSheet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigureSheet.m; sourceTree = "<group>"; };
+		8A6460CC206153B80075146C /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A646104206166860075146C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8A646105206166860075146C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A646106206166860075146C /* Runner.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
+		8A646109206166860075146C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A64610A206166860075146C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A64610B206166860075146C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A646117206170D80075146C /* NSColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSColor+Hex.h"; path = "DinnerScreenSaver/NSColor+Hex.h"; sourceTree = SOURCE_ROOT; };
+		8A646118206170D80075146C /* NSColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSColor+Hex.m"; path = "DinnerScreenSaver/NSColor+Hex.m"; sourceTree = SOURCE_ROOT; };
+		8A762CC9205AFDF600A4C384 /* ConfigureSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
 		8AFA89CD2038201F006E68A0 /* DinnerScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinnerScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFA89D02038201F006E68A0 /* DinnerScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DinnerScreenSaverView.h; sourceTree = "<group>"; };
 		8AFA89D22038201F006E68A0 /* DinnerScreenSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DinnerScreenSaverView.m; sourceTree = "<group>"; };
@@ -23,6 +53,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8A6460C9206153B80075146C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AFA89C92038201F006E68A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,9 +70,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A646101206166860075146C /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				8A646103206166860075146C /* MainMenu.xib */,
+				8A646105206166860075146C /* AppDelegate.h */,
+				8A646106206166860075146C /* Runner.entitlements */,
+				8A646109206166860075146C /* Info.plist */,
+				8A64610A206166860075146C /* main.m */,
+				8A64610B206166860075146C /* AppDelegate.m */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
 		8AFA89C32038201F006E68A0 = {
 			isa = PBXGroup;
 			children = (
+				8A646101206166860075146C /* Runner */,
 				8AFA89CF2038201F006E68A0 /* DinnerScreenSaver */,
 				8AFA89CE2038201F006E68A0 /* Products */,
 			);
@@ -45,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				8AFA89CD2038201F006E68A0 /* DinnerScreenSaver.saver */,
+				8A6460CC206153B80075146C /* Runner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,10 +104,15 @@
 		8AFA89CF2038201F006E68A0 /* DinnerScreenSaver */ = {
 			isa = PBXGroup;
 			children = (
+				8A646117206170D80075146C /* NSColor+Hex.h */,
+				8A646118206170D80075146C /* NSColor+Hex.m */,
 				8AFA89D02038201F006E68A0 /* DinnerScreenSaverView.h */,
 				8AFA89D22038201F006E68A0 /* DinnerScreenSaverView.m */,
+				8A646094206046430075146C /* ConfigureSheet.h */,
+				8A646095206046430075146C /* ConfigureSheet.m */,
 				8AFA89DF203822F1006E68A0 /* DinnerScreenSaverScene.h */,
 				8AFA89DE203822F1006E68A0 /* DinnerScreenSaverScene.m */,
+				8A762CC9205AFDF600A4C384 /* ConfigureSheet.xib */,
 				8AFA89D42038201F006E68A0 /* Info.plist */,
 			);
 			path = DinnerScreenSaver;
@@ -69,13 +126,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AFA89D12038201F006E68A0 /* DinnerScreenSaverView.h in Headers */,
+				8A646096206046430075146C /* ConfigureSheet.h in Headers */,
 				8AFA89E1203822F1006E68A0 /* DinnerScreenSaverScene.h in Headers */,
+				8A646119206170D80075146C /* NSColor+Hex.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		8A6460CB206153B80075146C /* Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6460DD206153B80075146C /* Build configuration list for PBXNativeTarget "Runner" */;
+			buildPhases = (
+				8A6460C8206153B80075146C /* Sources */,
+				8A6460C9206153B80075146C /* Frameworks */,
+				8A6460CA206153B80075146C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A64611620616F690075146C /* PBXTargetDependency */,
+			);
+			name = Runner;
+			productName = Runner;
+			productReference = 8A6460CC206153B80075146C /* Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8AFA89CC2038201F006E68A0 /* DinnerScreenSaver */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AFA89D72038201F006E68A0 /* Build configuration list for PBXNativeTarget "DinnerScreenSaver" */;
@@ -103,6 +180,10 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Алексей";
 				TargetAttributes = {
+					8A6460CB206153B80075146C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					8AFA89CC2038201F006E68A0 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -115,6 +196,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 8AFA89C32038201F006E68A0;
 			productRefGroup = 8AFA89CE2038201F006E68A0 /* Products */;
@@ -122,33 +204,103 @@
 			projectRoot = "";
 			targets = (
 				8AFA89CC2038201F006E68A0 /* DinnerScreenSaver */,
+				8A6460CB206153B80075146C /* Runner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8A6460CA206153B80075146C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A64610D206166860075146C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AFA89CB2038201F006E68A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A762CCA205AFDF600A4C384 /* ConfigureSheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8A6460C8206153B80075146C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A646114206166860075146C /* AppDelegate.m in Sources */,
+				8A646112206166860075146C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AFA89C82038201F006E68A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A64611A206170D80075146C /* NSColor+Hex.m in Sources */,
 				8AFA89D32038201F006E68A0 /* DinnerScreenSaverView.m in Sources */,
 				8AFA89E0203822F1006E68A0 /* DinnerScreenSaverScene.m in Sources */,
+				8A646097206046430075146C /* ConfigureSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8A64611620616F690075146C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AFA89CC2038201F006E68A0 /* DinnerScreenSaver */;
+			targetProxy = 8A64611520616F690075146C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A646103206166860075146C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A646104206166860075146C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		8A6460DE206153B80075146C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GLQY2SH5YN;
+				INFOPLIST_FILE = Runner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alexey.Runner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A6460DF206153B80075146C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GLQY2SH5YN;
+				INFOPLIST_FILE = Runner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alexey.Runner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8AFA89D52038201F006E68A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -283,6 +435,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8A6460DD206153B80075146C /* Build configuration list for PBXNativeTarget "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6460DE206153B80075146C /* Debug */,
+				8A6460DF206153B80075146C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8AFA89C72038201F006E68A0 /* Build configuration list for PBXProject "DinnerScreenSaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -8,6 +8,13 @@
 
 #import "DinnerScreenSaverView.h"
 #import "DinnerScreenSaverScene.h"
+#import "ConfigureSheet.h"
+
+#define kDefaultsModuleName [NSBundle bundleForClass:[self class]].bundleIdentifier
+
+@interface DinnerScreenSaverView()
+
+@end
 
 @implementation DinnerScreenSaverView
 
@@ -19,17 +26,31 @@
         sceneView.autoresizingMask = NSViewWidthSizable | NSViewHeightSizable;
         [self addSubview:sceneView];
         DinnerScreenSaverScene *scene = [[DinnerScreenSaverScene alloc] initWithSize:frame.size];
+       // NSString *text = [[self defaults] stringForKey:@"text"];
+        scene.textString = @"lolololololo";
+        scene.backColor = [NSColor redColor];
+        scene.textColor = [NSColor yellowColor];
+
         [sceneView presentScene: scene];
     }
     return self;
 }
 
-- (BOOL)hasConfigureSheet {
-    return NO;
+- (BOOL)hasConfigureSheet
+    {
+        return YES;
+    }
+    
+- (NSWindow*)configureSheet {
+    if (!configureSheet)
+    {
+        configureSheet = [[ConfigureSheet alloc] initWithWindowNibName:@"ConfigureSheet"];
+    }
+    return [configureSheet window];
 }
 
-- (NSWindow*)configureSheet {
-    return nil;
+- (ScreenSaverDefaults *) defaults {
+    return [ScreenSaverDefaults defaultsForModuleWithName: kDefaultsModuleName];
 }
 
 @end
