@@ -7,13 +7,11 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
-#import <Cocoa/Cocoa.h>
 
 @interface DinnerScreenSaverView : ScreenSaverView {
     
     id  configureSheet;
     
 }
-
 
 @end

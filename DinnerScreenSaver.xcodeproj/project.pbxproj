@@ -41,8 +41,8 @@
 		8A646109206166860075146C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A64610A206166860075146C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A64610B206166860075146C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8A646117206170D80075146C /* NSColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSColor+Hex.h"; path = "DinnerScreenSaver/NSColor+Hex.h"; sourceTree = SOURCE_ROOT; };
-		8A646118206170D80075146C /* NSColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSColor+Hex.m"; path = "DinnerScreenSaver/NSColor+Hex.m"; sourceTree = SOURCE_ROOT; };
+		8A646117206170D80075146C /* NSColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSColor+Hex.h"; path = "DinnerScreenSaver/Helpers/NSColor+Hex.h"; sourceTree = SOURCE_ROOT; };
+		8A646118206170D80075146C /* NSColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSColor+Hex.m"; path = "DinnerScreenSaver/Helpers/NSColor+Hex.m"; sourceTree = SOURCE_ROOT; };
 		8A762CC9205AFDF600A4C384 /* ConfigureSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
 		8AFA89CD2038201F006E68A0 /* DinnerScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinnerScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFA89D02038201F006E68A0 /* DinnerScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DinnerScreenSaverView.h; sourceTree = "<group>"; };
@@ -83,6 +83,22 @@
 			path = Runner;
 			sourceTree = "<group>";
 		};
+		8A6461292061C2FD0075146C /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		8A64612A2061C3490075146C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8A646117206170D80075146C /* NSColor+Hex.h */,
+				8A646118206170D80075146C /* NSColor+Hex.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		8AFA89C32038201F006E68A0 = {
 			isa = PBXGroup;
 			children = (
@@ -104,14 +120,14 @@
 		8AFA89CF2038201F006E68A0 /* DinnerScreenSaver */ = {
 			isa = PBXGroup;
 			children = (
-				8A646117206170D80075146C /* NSColor+Hex.h */,
-				8A646118206170D80075146C /* NSColor+Hex.m */,
 				8AFA89D02038201F006E68A0 /* DinnerScreenSaverView.h */,
 				8AFA89D22038201F006E68A0 /* DinnerScreenSaverView.m */,
 				8A646094206046430075146C /* ConfigureSheet.h */,
 				8A646095206046430075146C /* ConfigureSheet.m */,
 				8AFA89DF203822F1006E68A0 /* DinnerScreenSaverScene.h */,
 				8AFA89DE203822F1006E68A0 /* DinnerScreenSaverScene.m */,
+				8A6461292061C2FD0075146C /* Recources */,
+				8A64612A2061C3490075146C /* Helpers */,
 				8A762CC9205AFDF600A4C384 /* ConfigureSheet.xib */,
 				8AFA89D42038201F006E68A0 /* Info.plist */,
 			);

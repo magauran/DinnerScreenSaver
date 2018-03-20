@@ -15,7 +15,6 @@
 @interface ConfigureSheet ()
 
 @property (weak) IBOutlet NSButton *buttonClose;
-
 @property (weak) IBOutlet NSTextField *timeTextField;
 @property (weak) IBOutlet NSTextField *textField;
 @property (weak) IBOutlet NSColorWell *textColorWell;

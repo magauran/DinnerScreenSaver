@@ -11,10 +11,6 @@
 
 @interface DinnerScreenSaverScene : SKScene
 
-@property (copy, nonatomic) NSString *textString;
-@property (strong, nonatomic) NSColor *backColor;
-@property (strong, nonatomic) NSColor *textColor;
-
 @end
 
 
