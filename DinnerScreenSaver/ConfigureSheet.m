@@ -44,7 +44,6 @@
     [[self defaults] synchronize];
     
     [[NSApplication sharedApplication] endSheet:[self window]];
-   // [[NSApplication sharedApplication] endSheet:[self window] returnCode:NSModalResponseOK];
 }
 
 - (ScreenSaverDefaults *) defaults {
