@@ -14,6 +14,8 @@
 		8A646114206166860075146C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A64610B206166860075146C /* AppDelegate.m */; };
 		8A646119206170D80075146C /* NSColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A646117206170D80075146C /* NSColor+Hex.h */; };
 		8A64611A206170D80075146C /* NSColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A646118206170D80075146C /* NSColor+Hex.m */; };
+		8A64612D2061C83F0075146C /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A64612B2061C83E0075146C /* thumbnail@2x.png */; };
+		8A64612E2061C83F0075146C /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A64612C2061C83E0075146C /* thumbnail.png */; };
 		8A762CCA205AFDF600A4C384 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A762CC9205AFDF600A4C384 /* ConfigureSheet.xib */; };
 		8AFA89D12038201F006E68A0 /* DinnerScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AFA89D02038201F006E68A0 /* DinnerScreenSaverView.h */; };
 		8AFA89D32038201F006E68A0 /* DinnerScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA89D22038201F006E68A0 /* DinnerScreenSaverView.m */; };
@@ -43,6 +45,8 @@
 		8A64610B206166860075146C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8A646117206170D80075146C /* NSColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSColor+Hex.h"; path = "DinnerScreenSaver/Helpers/NSColor+Hex.h"; sourceTree = SOURCE_ROOT; };
 		8A646118206170D80075146C /* NSColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSColor+Hex.m"; path = "DinnerScreenSaver/Helpers/NSColor+Hex.m"; sourceTree = SOURCE_ROOT; };
+		8A64612B2061C83E0075146C /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+		8A64612C2061C83E0075146C /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		8A762CC9205AFDF600A4C384 /* ConfigureSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
 		8AFA89CD2038201F006E68A0 /* DinnerScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinnerScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFA89D02038201F006E68A0 /* DinnerScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DinnerScreenSaverView.h; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 		8A6461292061C2FD0075146C /* Recources */ = {
 			isa = PBXGroup;
 			children = (
+				8A64612C2061C83E0075146C /* thumbnail.png */,
+				8A64612B2061C83E0075146C /* thumbnail@2x.png */,
 			);
 			path = Recources;
 			sourceTree = "<group>";
@@ -239,6 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A762CCA205AFDF600A4C384 /* ConfigureSheet.xib in Resources */,
+				8A64612D2061C83F0075146C /* thumbnail@2x.png in Resources */,
+				8A64612E2061C83F0075146C /* thumbnail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
