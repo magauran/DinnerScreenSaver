@@ -12,22 +12,22 @@
 
 - (NSString *)hexadecimalValue {
     
-    double redFloatValue, greenFloatValue, blueFloatValue;
-    int redIntValue, greenIntValue, blueIntValue;
+    CGFloat redFloatValue, greenFloatValue, blueFloatValue;
+    NSInteger redIntValue, greenIntValue, blueIntValue;
     NSString *redHexValue, *greenHexValue, *blueHexValue;
     
     NSColor *convertedColor = [self colorUsingColorSpaceName:NSCalibratedRGBColorSpace];
     
-    if(convertedColor) {
-        [convertedColor getRed:&redFloatValue green:&greenFloatValue blue:&blueFloatValue alpha:NULL];
+    if (convertedColor) {
+        [convertedColor getRed:&redFloatValue green:&greenFloatValue blue:&blueFloatValue alpha:nil];
         
-        redIntValue = redFloatValue*255.99999f;
-        greenIntValue = greenFloatValue*255.99999f;
-        blueIntValue = blueFloatValue*255.99999f;
+        redIntValue = redFloatValue * 255.99999f;
+        greenIntValue = greenFloatValue * 255.99999f;
+        blueIntValue = blueFloatValue * 255.99999f;
         
-        redHexValue = [NSString stringWithFormat:@"%02x", redIntValue]; 
-        greenHexValue = [NSString stringWithFormat:@"%02x", greenIntValue];
-        blueHexValue = [NSString stringWithFormat:@"%02x", blueIntValue];
+        redHexValue = [NSString stringWithFormat:@"%02lx", (long)redIntValue];
+        greenHexValue = [NSString stringWithFormat:@"%02lx", (long)greenIntValue];
+        blueHexValue = [NSString stringWithFormat:@"%02lx", (long)blueIntValue];
         
         return [NSString stringWithFormat:@"#%@%@%@", redHexValue, greenHexValue, blueHexValue];
     }
@@ -45,10 +45,12 @@
     
     if (hex) {
         NSScanner *scanner = [NSScanner scannerWithString:hex];
-        (void)[scanner scanHexInt:&colorCode];
+        [scanner scanHexInt:&colorCode];
     }
     
-    return [NSColor colorWithDeviceRed:((colorCode>>16)&0xFF)/255.0 green:((colorCode>>8)&0xFF)/255.0 blue:((colorCode)&0xFF)/255.0 alpha:1.0];
+    return [NSColor colorWithDeviceRed:((colorCode >> 16) & 0xFF) / 255.0
+                                 green:((colorCode >> 8) & 0xFF) / 255.0
+                                  blue:(colorCode & 0xFF) / 255.0 alpha:1.0];
 }
 
 @end

@@ -10,7 +10,7 @@
 
 @interface DinnerScreenSaverView : ScreenSaverView {
     
-    id  configureSheet;
+    id configureSheet;
     
 }
 

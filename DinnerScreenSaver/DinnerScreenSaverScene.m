@@ -31,8 +31,8 @@
 }
 
 - (void)setupLabels {
-    _timerLabel = [[SKLabelNode alloc] init];
-    [_timerLabel setText:[NSString stringWithFormat:@"%02ld:%02ld", (_seconds / 60), (_seconds  % 60)]];
+    _timerLabel = [SKLabelNode new];
+    [_timerLabel setText:[NSString stringWithFormat:@"%02ld:%02ld", (_seconds / 60), (_seconds % 60)]];
     [_timerLabel setHorizontalAlignmentMode:SKLabelHorizontalAlignmentModeCenter];
     [_timerLabel setVerticalAlignmentMode:SKLabelVerticalAlignmentModeTop];
     [_timerLabel setFontName:@"Eurostile Bold"];
@@ -41,8 +41,8 @@
     [_timerLabel setPosition:CGPointMake(self.size.width / 2, self.size.height / 2)];
     [self addChild:_timerLabel];
     
-    SKLabelNode *_dinnerLabel = [[SKLabelNode alloc] init];
-    [_dinnerLabel  setText:[[self defaults] stringForKey: @"text"]];
+    SKLabelNode *_dinnerLabel = [SKLabelNode new];
+    [_dinnerLabel setText:[[self defaults] stringForKey: @"text"]];
     [_dinnerLabel setHorizontalAlignmentMode:SKLabelHorizontalAlignmentModeCenter];
     [_dinnerLabel setVerticalAlignmentMode:SKLabelVerticalAlignmentModeBottom];
     [_dinnerLabel setFontName:@"Eurostile"];
@@ -60,7 +60,7 @@
 }
 
 - (ScreenSaverDefaults *) defaults {
-    return [ScreenSaverDefaults defaultsForModuleWithName: kDefaultsModuleName];
+    return [ScreenSaverDefaults defaultsForModuleWithName:kDefaultsModuleName];
 }
 
 @end

@@ -22,6 +22,7 @@
 
 @end
 
+
 @implementation ConfigureSheet
 
 - (void)windowDidLoad {
@@ -46,7 +47,7 @@
 }
 
 - (ScreenSaverDefaults *) defaults {
-    return [ScreenSaverDefaults defaultsForModuleWithName: kDefaultsModuleName];
+    return [ScreenSaverDefaults defaultsForModuleWithName:kDefaultsModuleName];
 }
 
 @end

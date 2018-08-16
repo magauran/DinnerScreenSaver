@@ -18,7 +18,7 @@
     self = [super initWithFrame:frame isPreview:isPreview];
     if (self) {
         [self setAnimationTimeInterval:1/30.0];
-        [self setupSceneWithFrame: frame];
+        [self setupSceneWithFrame:frame];
     }
     return self;
 }
@@ -35,7 +35,7 @@
 }
 
 - (ScreenSaverDefaults *)defaults {
-    return [ScreenSaverDefaults defaultsForModuleWithName: kDefaultsModuleName];
+    return [ScreenSaverDefaults defaultsForModuleWithName:kDefaultsModuleName];
 }
 
 - (void)setupSceneWithFrame:(CGRect)frame {
@@ -43,7 +43,7 @@
     sceneView.autoresizingMask = NSViewWidthSizable | NSViewHeightSizable;
     [self addSubview:sceneView];
     DinnerScreenSaverScene *scene = [[DinnerScreenSaverScene alloc] initWithSize:frame.size];
-    [sceneView presentScene: scene];
+    [sceneView presentScene:scene];
 }
 
 @end
