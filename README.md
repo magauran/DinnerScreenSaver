@@ -14,7 +14,7 @@
 Если же Вы отошли, то коллеги смогут узнать, когда Вас стоит ожидать.
 
 ## Установка:
-- [Скачать последнюю версию](https://github.com/magauran/DinnerScreenSaver/releases/download/v1.0/DinnerScreenSaver.zip)
+- [Скачать последнюю версию](https://github.com/magauran/DinnerScreenSaver/releases/download/v1.1/DinnerScreenSaver.zip)
 - Распаковать архив
 - Открыть *DinnerScreenSaver.saver*
 - Установить заставку
